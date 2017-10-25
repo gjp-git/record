@@ -1,0 +1,8 @@
+1.
+File类有几个类似separator的静态字段，都是与系统相关的，在编程时应尽量使用： 
+- separatorChar 
+- separator 
+- pathSeparatorChar 
+- pathSeparator
+与系统有关的默认名称分隔符，在UNIX 系统上，此字段的值为 ‘/’；在 Microsoft Windows 系统上，它为 ‘\’
+与系统有关的路径分隔符，在 UNIX 系统上，此字段为 ‘:’；在 Microsoft Windows 系统上，它为 ‘;
